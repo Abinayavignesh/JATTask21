@@ -40,7 +40,7 @@ public class ReadingExcel {
 		System.out.println("Total Columns :"+ sh.getRow(0).getPhysicalNumberOfCells());
 		
 		int rows=sh.getLastRowNum()+1;
-		System.out.println("Totoa Rows :" +rows);
+		System.out.println("Totol Rows :" +rows);
 		
 		int columns=sh.getRow(0).getLastCellNum();
 		System.out.println("Total columns :" +columns);
@@ -53,3 +53,25 @@ public class ReadingExcel {
 	}
 
 }
+
+/* Output
+Demosheet
+UserName
+p2
+Total Rows :6
+Total Columns :2
+Total Rows :6
+Total columns :2
+UserName
+Password
+user 1
+p1
+user 2
+p2
+user 3
+p3
+user 4
+p4
+user 5
+p5
+*/
